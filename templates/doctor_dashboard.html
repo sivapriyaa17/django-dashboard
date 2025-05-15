@@ -1,0 +1,10 @@
+<html>
+<head>
+    <title>Doctor Dashboard</title>
+</head>
+<body>
+    <h2>Welcome, Dr. {{ request.user.first_name }}!</h2>
+    <p>This is the Doctor's dashboard.</p>
+    <p><a href="{% url 'logout' %}">Logout</a></p>
+</body>
+</html>
